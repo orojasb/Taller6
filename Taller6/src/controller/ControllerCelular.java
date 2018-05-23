@@ -24,6 +24,9 @@ public class ControllerCelular implements ActionListener {
 		vistaTienda.botonRegistrar.addActionListener(escuchador);
 		vistaTienda.botonCantidadCelulares.addActionListener(escuchador);
 		vistaTienda.botonListaDeCelulares.addActionListener(escuchador);
+		
+		
+		
 		vistaTienda.botonNuevaVentana.addActionListener(escuchador);
 		vistaTienda.botonBuscarMarca.addActionListener(escuchador);
 		vistaTienda.botonVentanaRango.addActionListener(escuchador);
